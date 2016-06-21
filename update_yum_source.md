@@ -1,6 +1,7 @@
 # CentOS 7 更新yum源
 
 1. 备份原有的源
+  
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 
 2. 进入yum源目录
