@@ -28,7 +28,7 @@
 ### 图片
 ![图片](http://cdn.fuzeuser.com/fuzeshequ/feed/201606/576ba85566ff8.jpg)  语法： **!\[文字\]\(url\)**
 ### 代码块
-``` python
+` python
 @requires_authorization
 def somefunc(param1='', param2=0):
     '''A docstring'''
@@ -39,7 +39,7 @@ class SomeClass:
     pass
 >>> message = '''interpreter
 ... prompt'''
-```
+`
 ### LaTeX 公式
 
 可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
