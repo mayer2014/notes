@@ -28,9 +28,9 @@
 ### 图片
 ![图片](http://cdn.fuzeuser.com/fuzeshequ/feed/201606/576ba85566ff8.jpg)  语法： **!\[文字\]\(url\)**
 ### 代码块
-语法：\`\`\` 描述
-      code...
-      \`\`\`
+语法：\`\`\` 描述  
+      code...  
+      \`\`\`  
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
