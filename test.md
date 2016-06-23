@@ -40,6 +40,14 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
+``` php
+<?php
+$app->get('/hello[/{name}]', function ($request, $response, $args) {
+    $response->write("Hello, " . $args['name']);
+    return $response;
+})->setArgument('name', 'World!');
+?>
+```
 ### LaTeX 公式
 
 可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
