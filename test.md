@@ -28,6 +28,7 @@
 ### 图片
 ![图片](http://cdn.fuzeuser.com/fuzeshequ/feed/201606/576ba85566ff8.jpg)  语法： **!\[文字\]\(url\)**
 ### 代码块
+语法如下：  
 **\`\`\` 描述**  
 **code...**  
 **\`\`\`**  
@@ -42,14 +43,6 @@ class SomeClass:
     pass
 >>> message = '''interpreter
 ... prompt'''
-```
-``` php
-<?php
-$app->get('/hello[/{name}]', function ($request, $response, $args) {
-    $response->write("Hello, " . $args['name']);
-    return $response;
-})->setArgument('name', 'World!');
-?>
 ```
 ### LaTeX 公式
 
