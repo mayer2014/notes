@@ -64,6 +64,9 @@ class SomeClass:
 
 使用 `- [ ]` 和 `- [x]` 语法可以创建复选框，实现 todo-list 等功能。例如：
 
+\- [x] 已完成事项
+\- [ ] 待办事项1
+  
 - [x] 已完成事项
 - [ ] 待办事项1
 - [ ] 待办事项2
@@ -72,7 +75,7 @@ class SomeClass:
 
 
 ## 反馈与建议
-- 博客：[@疯狂老司机](http://blog.csdn.net/wuxing26jiayou "CSDN")
+- 博客：[@疯狂老司机](http://blog.csdn.net/wuxing26jiayou "CSDN博客")
 - 邮箱：<1289352797@qq.com>
 
 ---------
