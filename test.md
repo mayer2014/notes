@@ -26,7 +26,7 @@
 [超链接](https://github.com/mayer2014)，语法： **\[文字\]\(url\)**
 
 ### 图片
-![图片](https://avatars1.githubusercontent.com/u/9464370?v=3&s=40)
+![图片](http://cdn.fuzeuser.com/fuzeshequ/feed/201606/576ba85566ff8.jpg)
 ### 代码块
 ``` python
 @requires_authorization
