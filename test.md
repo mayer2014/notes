@@ -23,7 +23,7 @@
 -------------------
 
 
-这是一个[链接](https://github.com/mayer2014),\[NAME\]\(URL\)
+这是一个[超链接](https://github.com/mayer2014),**语法：** \[文字\]\(链接地址\)
 
 ### 代码块
 ``` python
