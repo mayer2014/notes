@@ -137,7 +137,7 @@ git branch
 ```
 
 #### 合并分支
-> 合并到当前分支，可以使用--no-ff方式普通合并
+> 合并到当前分支，可以使用--no-ff方式普通合并，强制禁用Fast forward模式，Git就会在merge时生成一个新的commit
 ``` shell
 git merge dev
 ```
