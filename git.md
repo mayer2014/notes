@@ -106,3 +106,10 @@ ssh-keygen -t rsa -C "youremail@example.com"
 git remote add origin git@github.com:mayer2014/git.git
 git push -u origin master
 ```
+
+#### 推送更新到Github
+> 
+``` shell
+git push origin master
+```
+
