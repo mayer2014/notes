@@ -99,4 +99,9 @@ git rm readme.txt
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
 登陆GitHub，打开“**Account settings**”，进入“**SSH and GPG keys**”页面，点“**New SSH key**”，填上任意Title，在Key文本框里粘贴**id_rsa.pub**文件的内容
-
+  
+#### 添加远程仓库
+> 首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的空仓库
+``` shell
+git remote add origin git@github.com:mayer2014/git.git
+```
