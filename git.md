@@ -45,6 +45,14 @@ git diff readme.txt
 ``` shell
 git diff --cached readme.txt
 ```
+比较工作区与版本库的区别
+``` shell
+git diff
+git diff HEAD
+```
+比较最近两个版本的区别
+``` shell
+git diff HEAD^ HEAD
 
 #### 查看日志
 ``` shell
