@@ -129,3 +129,32 @@ git checkout -b dev
 git branch dev
 git checkout dev
 ```
+
+#### 查看分支
+> 
+``` shell
+git branch
+```
+
+#### 合并分支
+> 合并到当前分支
+``` shell
+git merge dev
+```
+
+#### 删除本地分支
+> 
+``` shell
+git branch -d dev
+```
+
+#### 删除远程分支
+> 
+``` shell
+git push origin :dev
+```
+或
+``` shell
+git push origin --delete dev
+```
+
