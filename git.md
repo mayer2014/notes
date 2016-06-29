@@ -104,4 +104,5 @@ ssh-keygen -t rsa -C "youremail@example.com"
 > 首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的空仓库
 ``` shell
 git remote add origin git@github.com:mayer2014/git.git
+git push -u origin master
 ```
