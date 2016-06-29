@@ -94,11 +94,11 @@ git rm readme.txt
 ```
 
 #### 创建SSH Key
-> 在用户主目录里查看是否存在.ssh目录，里面是否有**id_rsa**和**id_rsa.pub**两个文件，如果存在，则跳过这一步。
+> 在用户主目录里查看是否存在.ssh目录，里面是否有*id_rsa*和*id_rsa.pub*两个文件，如果存在，则跳过这一步。
 ``` shell
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
-登陆GitHub，打开“Account settings”，进入“SSH and GPG keys”页面，点“New SSH key”，填上任意Title，在Key文本框里粘贴**id_rsa.pub**文件的内容
+登陆GitHub，打开“Account settings”，进入“SSH and GPG keys”页面，点“New SSH key”，填上任意Title，在Key文本框里粘贴*id_rsa.pub*文件的内容
   
 #### 添加远程仓库
 > 首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的空仓库
