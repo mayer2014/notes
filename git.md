@@ -98,5 +98,5 @@ git rm readme.txt
 ``` shell
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
-登陆GitHub，打开“Account settings”，进入“SSH and GPG keys”页面，点“New SSH key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+登陆GitHub，打开“**Account settings**”，进入“**SSH and GPG keys**”页面，点“**New SSH key**”，填上任意Title，在Key文本框里粘贴**id_rsa.pub**文件的内容
 
