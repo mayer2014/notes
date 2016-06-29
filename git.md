@@ -37,9 +37,13 @@ git status
 ```
 
 #### 查看修改内容
-> 
+> 比较工作区与暂存区的区别
 ``` shell
 git diff readme.txt
+```
+比较暂存区跟版本库的区别
+``` shell
+git diff --cached readme.txt
 ```
 
 #### 查看日志
