@@ -10,3 +10,11 @@
 * git config --global user.email "email@example.com"
  
 #### 创建新的版本库
+* mkdir git
+* cd git
+* git init
+
+#### 提交文件
+* echo "Git is a version control system.">>readme.txt
+* git add readme.txt
+* git commit -m "add readme"
