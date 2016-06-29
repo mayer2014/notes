@@ -58,32 +58,37 @@ git diff HEAD
 git diff HEAD^ HEAD
 
 #### 查看日志
-> 添加--pretty=oneline显示一行
+> 如果记录太多，可添加--pretty=oneline只显示一行
 ``` shell
 git log --pretty=oneline
 ```
 
 #### 查看操作日志
+> 
 ``` shell
 git reflog
 ```
 
-#### 版本回退
+#### 版本库回退
+> 
 ``` shell
 git reset --hard HEAD^
 ```
 
 #### 撤销工作区修改
+> 
 ``` shell
 git checkout -- readme.txt
 ```
 
 #### 撤销暂存区修改
+>
 ``` shell
 git reset HEAD readme.txt
 ```
 
 #### 删除文件
+>
 ``` shell
 git rm readme.txt
 ```
