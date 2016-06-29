@@ -23,7 +23,7 @@ git init
 ```
 
 #### 提交文件
-> 
+> 新建一个readme.txt文件并提交到版本库 
 ``` shell
 echo "Git is a version control system.">>readme.txt
 git add readme.txt
@@ -31,6 +31,7 @@ git commit -m "add readme"
 ```
 
 #### 查看状态
+> 
 ``` shell
 git status
 ```
