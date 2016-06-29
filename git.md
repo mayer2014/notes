@@ -26,3 +26,14 @@ echo "Git is a version control system.">>readme.txt
 git add readme.txt
 git commit -m "add readme"
 ```
+
+#### 查看状态
+``` shell
+git status
+```
+
+#### 查看修改内容
+``` shell
+git diff readme.txt
+```
+
