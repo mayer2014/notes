@@ -92,6 +92,7 @@ git reset HEAD readme.txt
 ``` shell
 git rm readme.txt
 ```
+
 #### 创建SSH Key
 > 在用户主目录里查看是否存在.ssh目录，里面是否有id_rsa和id_rsa.pub两个文件，如果存在，则跳过这一步。
 ``` shell
