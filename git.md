@@ -37,3 +37,33 @@ git status
 git diff readme.txt
 ```
 
+#### 查看日志
+``` shell
+git log
+```
+
+#### 查看操作日志
+``` shell
+git reflog
+```
+
+#### 版本回退
+``` shell
+git reset --hard HEAD^
+```
+
+#### 撤销工作区修改
+``` shell
+git checkout -- readme.txt
+```
+
+#### 撤销暂存区修改
+``` shell
+git reset HEAD readme.txt
+```
+
+#### 删除文件
+``` shell
+git rm readme.txt
+```
+
