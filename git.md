@@ -5,8 +5,8 @@
 * sudo apt-get install git (Debian系)
 * yum install git (Red Hat系)
  
-**设置用户名和邮箱**
+#### 设置用户名和邮箱
 * git config --global user.name "Your Name"
 * git config --global user.email "email@example.com"
  
-## 创建新的版本库
+#### 创建新的版本库
