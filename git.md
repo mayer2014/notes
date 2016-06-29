@@ -2,9 +2,10 @@
 > Git是一个分布式的版本控制系统，最初由Linus Torvalds编写，用作Linux内核代码的管理。    —— [百度百科](http://baike.baidu.com/link?url=oTyn9kHmPS2fiBhhZMYJztsVHGzxhxsORndyVKGm5soYJS68vrpsF7yRzM6gJEZf2Hcn3yrLE-MjIcCkNw1Cqq)  
   
 #### 安装Git
+> Debian系使用apt-get方式安装，Red Hat系使用yum方式安装
 ``` shell
-sudo apt-get install git (Debian系)
-yum install git (Red Hat系)
+sudo apt-get install git
+yum install git
 ```
 
 #### 设置用户名和邮箱
