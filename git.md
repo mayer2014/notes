@@ -103,7 +103,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 #### 添加远程仓库
 > 首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的空仓库
 ``` shell
-git remote add origin git@github.com:mayer2014/git.git
+git remote add origin git@github.com:mayer2014/notes.git
 git push -u origin master
 ```
 
@@ -111,5 +111,11 @@ git push -u origin master
 > 
 ``` shell
 git push origin master
+```
+
+#### 从Github克隆
+> 
+``` shell
+git clone git@github.com:mayer2014/notes.git "可重命名目录名"
 ```
 
