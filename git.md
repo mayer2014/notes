@@ -9,19 +9,21 @@ yum install git
 ```
 
 #### 设置用户名和邮箱
+> Git是分布式版本控制系统,需要设置用户名和邮箱
 ``` shell
 git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
 ```
 
 #### 创建新的版本库
+> 创建目录并在目录中初始化版本库
 ``` shell
-mkdir git
-cd git
+mkdir git && cd git
 git init
 ```
 
 #### 提交文件
+> 
 ``` shell
 echo "Git is a version control system.">>readme.txt
 git add readme.txt
