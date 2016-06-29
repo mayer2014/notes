@@ -141,6 +141,10 @@ git branch
 ``` shell
 git merge dev
 ```
+或
+``` shell
+git merge --no-ff -m "merge with no-ff" dev
+```
 
 #### 删除本地分支
 > 
