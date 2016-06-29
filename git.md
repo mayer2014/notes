@@ -137,7 +137,7 @@ git branch
 ```
 
 #### 合并分支
-> 合并到当前分支
+> 合并到当前分支，可以使用--no-ff方式普通合并
 ``` shell
 git merge dev
 ```
