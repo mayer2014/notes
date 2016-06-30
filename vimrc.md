@@ -1,17 +1,21 @@
-set nocompatible            " ¹Ø±Õ vi ¼æÈÝÄ£Ê½
-syntax on                   " ×Ô¶¯Óï·¨¸ßÁÁ
-set number                  " ÏÔÊ¾ÐÐºÅ
-set nobackup                " ¸²¸ÇÎÄ¼þÊ±²»±¸·Ý
-set autochdir               " ×Ô¶¯ÇÐ»»µ±Ç°Ä¿Â¼Îªµ±Ç°ÎÄ¼þËùÔÚµÄÄ¿Â¼
-set ignorecase smartcase    " ËÑË÷Ê±ºöÂÔ´óÐ¡Ð´£¬µ«ÔÚÓÐÒ»¸ö»òÒÔÉÏ´óÐ´×ÖÄ¸Ê±ÈÔ±£³Ö¶Ô´óÐ¡Ð´Ãô¸Ð
-set nowrapscan              " ½ûÖ¹ÔÚËÑË÷µ½ÎÄ¼þÁ½¶ËÊ±ÖØÐÂËÑË÷
-set incsearch               " ÊäÈëËÑË÷ÄÚÈÝÊ±¾ÍÏÔÊ¾ËÑË÷½á¹û
-set hlsearch                " ËÑË÷Ê±¸ßÁÁÏÔÊ¾±»ÕÒµ½µÄÎÄ±¾
-set smartindent             " ¿ªÆôÐÂÐÐÊ±Ê¹ÓÃÖÇÄÜ×Ô¶¯Ëõ½ø
-set tabstop=4               " tabµÈÓÚ4¿Õ¸ñ
-set expandtab               " ²»ÒªÓÃ¿Õ¸ñ´úÌæÖÆ±í·û
-set shiftwidth=4            " ÉèÖÃtabµÄ¿í¶È
-set softtabstop=4           " ÇÃÈëtab¼üÊ±Êµ¼ÊÕ¼ÓÐµÄÁÐÊý
-set encoding=utf-8          " ÉèÖÃVimµÄÄÚ²¿±àÂë
-set autoindent              " ÉèÖÃ×Ô¶¯¶ÔÆë(Ëõ½ø):¼´Ã¿ÐÐµÄËõ½øÖµÓëÉÏÒ»ÐÐÏàµÈ
-set cindent                 " ÉèÖÃÊ¹ÓÃ C/C++ ÓïÑÔµÄ×Ô¶¯Ëõ½ø·½Ê½
+# Vim ¿¿¿¿
+> 
+``` shell
+set nocompatible            " ¿¿ vi ¿¿¿¿
+syntax on                   " ¿¿¿¿¿¿
+set number                  " ¿¿¿¿
+set nobackup                " ¿¿¿¿¿¿¿¿
+set autochdir               " ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+set ignorecase smartcase    " ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+set nowrapscan              " ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+set incsearch               " ¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+set hlsearch                " ¿¿¿¿¿¿¿¿¿¿¿¿¿
+set smartindent             " ¿¿¿¿¿¿¿¿¿¿¿¿¿
+set tabstop=4               " tab¿¿4¿¿
+set expandtab               " ¿¿¿¿¿¿¿¿¿¿
+set shiftwidth=4            " ¿¿tab¿¿¿
+set softtabstop=4           " ¿¿tab¿¿¿¿¿¿¿¿¿
+set encoding=utf-8          " ¿¿Vim¿¿¿¿¿
+set autoindent              " ¿¿¿¿¿¿(¿¿):¿¿¿¿¿¿¿¿¿¿¿¿¿
+set cindent                 " ¿¿¿¿ C/C++ ¿¿¿¿¿¿¿¿¿
+```
