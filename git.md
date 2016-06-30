@@ -230,3 +230,39 @@ git checkout -b dev origin/dev
 ``` shell
 git branch --set-upstream dev origin/dev
 ```
+
+#### 标签管理
+> 当前版本打标签
+``` shell
+git tag v0.1
+```
+查看标签列表
+``` shell
+git tag
+```
+查看标签信息
+``` shell
+git show v0.1
+```
+为某一版本打标签并带上说明，-a指定标签名，-m指定说明文字
+``` shell
+git tag -a v0.1 -m "版本v0.1" commit_id
+```
+删除标签
+``` shell
+git tag -d v0.1
+```
+推送某个标签
+``` shell
+git push origin v1.0
+```
+推送全部本地标签
+``` shell
+git push origin --tags
+```
+删除远程库标签
+``` shell
+git push origin :refs/tags/v0.1
+```
+
+
