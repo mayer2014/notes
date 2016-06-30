@@ -172,7 +172,7 @@ git push origin --delete dev
 > 保存工作目录的中间状态——修改过的被追踪的文件和暂存的变更——并将它保存到一个未完结变更的堆栈中。
 ``` shell
 git stash
-···a
+```
 保存工作区时忽略已暂存的文件
 ``` shell
 git stash --keep-index
