@@ -226,7 +226,7 @@ git checkout -b dev origin/dev
 ```
 
 #### 关联远程分支
-> 如果第一次推送分支时没有使用git push -u origin dev推送，则使用git pull需要先关联本地分支与远程分支
+> 如果第一次推送分支时没有使用git push **-u** origin dev推送，则使用git pull需要先关联本地分支与远程分支
 ``` shell
 git branch --set-upstream dev origin/dev
 ```
