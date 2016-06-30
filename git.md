@@ -153,7 +153,11 @@ git merge --no-ff -m "merge with no-ff" dev
 ```
 
 #### 删除本地分支
-> 
+> 删除已合并的分支 
+``` shell
+git branch -d dev
+```
+删除未合并的分支
 ``` shell
 git branch -d dev
 ```
