@@ -236,6 +236,10 @@ git branch --set-upstream dev origin/dev
 ``` shell
 git tag v0.1
 ```
+为某一版本打标签并带上说明，-a指定标签名，-m指定说明文字
+``` shell
+git tag -a v0.1 -m "版本v0.1" commit_id
+```
 查看标签列表
 ``` shell
 git tag
@@ -243,10 +247,6 @@ git tag
 查看标签信息
 ``` shell
 git show v0.1
-```
-为某一版本打标签并带上说明，-a指定标签名，-m指定说明文字
-``` shell
-git tag -a v0.1 -m "版本v0.1" commit_id
 ```
 删除标签
 ``` shell
