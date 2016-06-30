@@ -159,7 +159,7 @@ git branch -d dev
 ```
 删除未合并的分支
 ``` shell
-git branch -d dev
+git branch -D dev
 ```
 
 #### 删除远程分支
@@ -207,3 +207,26 @@ git stash apply stash@{id}
 git stash drop stash@{id}
 ```
 
+#### 查看远程库
+> 
+``` shell
+git remote -v
+```
+
+#### 推送本地分支
+> 
+``` shell
+git push origin dev
+```
+
+#### 拉取远程分支到本地
+> git clone 只能拉取到主分支
+``` shell
+git checkout -b dev origin/dev
+```
+
+#### 关联远程分支
+> 如果第一次推送分支时没有使用git push -u origin dev推送，则使用git pull需要先关联本地分支与远程分支
+``` shell
+git branch --set-upstream dev origin/dev
+```
