@@ -168,3 +168,38 @@ git push origin :dev
 git push origin --delete dev
 ```
 
+#### 保存工作区
+> 保存工作目录的中间状态——修改过的被追踪的文件和暂存的变更——并将它保存到一个未完结变更的堆栈中。
+``` shell
+git stash
+···a
+保存工作区时忽略已暂存的文件
+``` shell
+git stash --keep-index
+```
+保存工作区时包含新创建的文件
+``` shell
+git stash -u
+```
+
+#### 查看保存的工作区
+> 
+``` shell
+git stash list
+```
+
+#### 恢复工作区
+> 恢复最近一次保存的工作区
+``` shell
+git stash pop
+```
+恢复指定的工作区
+``` shell
+git stash pop stash@{id}
+```
+或
+``` shell 
+git stash apply stash@{id}
+git stash drop stash@{id}
+```
+
