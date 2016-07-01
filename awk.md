@@ -32,4 +32,6 @@ awk '/Pattern1/{Actions}
 4  Tim     Manager    Marketing   $9,500    
 5  Ran     DBA        Technology  $6,000
 ```
+* **awk \'/San/**
+**\> /Tim/\' employee.log
 
