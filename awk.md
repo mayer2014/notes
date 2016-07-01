@@ -17,7 +17,7 @@ awk '/Pattern1/{Actions}
 > **vim employee.log**
 ``` shell
 1  Tom     Manager    Sales       $5,000    
-2  Jack    Developer  Technology  $5,500    
+2  Jac     Developer  Technology  $5,500    
 3  San     Sysadmin   Technology  $7,000    
 4  Tim     Manager    Marketing   $9,500    
 5  Ran     DBA        Technology  $6,000
@@ -27,7 +27,7 @@ awk '/Pattern1/{Actions}
 > * **awk '{print;}' employee.log**
 ``` shell
 1  Tom     Manager    Sales       $5,000    
-2  Jack    Developer  Technology  $5,500    
+2  Jac     Developer  Technology  $5,500    
 3  San     Sysadmin   Technology  $7,000    
 4  Tim     Manager    Marketing   $9,500    
 5  Ran     DBA        Technology  $6,000
@@ -37,4 +37,12 @@ awk '/Pattern1/{Actions}
 ``` shell
 3  San     Sysadmin   Technology  $7,000    
 4  Tim     Manager    Marketing   $9,500    
+```
+* **awk '{print $2,$NF;}' employee.log**
+``` shell
+Tom $5,000    
+Jac $5,500    
+San $7,000    
+Tim $9,500    
+Ran $6,000
 ```
