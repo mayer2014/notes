@@ -34,4 +34,7 @@ awk '/Pattern1/{Actions}
 ```
 * **awk '/San/**  
 **/Tim/' employee.log**
-
+``` shell
+3  San     Sysadmin   Technology  $7,000    
+4  Tim     Manager    Marketing   $9,500    
+```
