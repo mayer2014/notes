@@ -14,7 +14,7 @@ awk '/Pattern1/{Actions}
 * 如果Action未提供，则默认打印出该行的数据
 
 #### 例子文件
-> cat employee.log
+> **vim employee.log**
 ``` shell
 1  Tom     Manager    Sales       $5,000    
 2  Jack    Developer  Technology  $5,500    
