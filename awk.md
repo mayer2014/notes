@@ -24,7 +24,7 @@ awk '/Pattern1/{Actions}
 ```
 
 #### 例子说明
-> * awk '{print;}' employee.log
+> 1. awk '{print;}' employee.log
 ``` shell
 1  Tom     Manager    Sales       $5,000    
 2  Jack    Developer  Technology  $5,500    
