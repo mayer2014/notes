@@ -12,6 +12,7 @@ awk '/Pattern1/{Actions}
 > * Awk一次读取文件中的一行
 * Pattern和Action是可选的，但是必须提供其中一个
 * 如果Action未提供，则默认打印出该行的数据
+* Awk包含许多内建的变量，对于每行的记录，Awk默认按照空格进行分割，并将分隔后的值存入对应的$n变量中，其中$0代表整行，$1表示第一个字段，$NF表示最后一个字段
 
 #### 例子文件
 > **vim employee.log**
@@ -46,3 +47,18 @@ San $7,000
 Tim $9,500    
 Ran $6,000
 ```
+* **awk '$1 > 2' employee.log**
+``` shell    
+3  San     Sysadmin   Technology  $7,000    
+4  Tim     Manager    Marketing   $9,500    
+5  Ran     DBA        Technology  $6,000
+```
+* **awk '$4 ~ /Technology/' employee.log**
+``` shell    
+3  San     Sysadmin   Technology  $7,000    
+2  Jac     Developer  Technology  $5,500    
+5  Ran     DBA        Technology  $6,000
+```
+* **awk 'BEGIN { count=0;}  
+$4 ~ /Technology/ { count++; }  
+END { print "Number of employees in Technology Dept =",count;}' employee.txt**
