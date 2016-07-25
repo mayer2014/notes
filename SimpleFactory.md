@@ -46,11 +46,16 @@ class Cat implements Mammal {
     function __construct($number = 1) {
         $this->number=$number; 
     }  
-  
+    /**
+     * 输出动物特征
+     */
     function feature() {  
         echo "您好，我是哺乳动物，我每小时能跑百公里，抓到的老鼠能绕地球三圈！\n";
     }  
   
+    /**
+     * 输出动物吃相
+     */
     function eat() {  
         echo "您好，我是哺乳动物，我一分钟能吃掉十只老鼠！\n";
     }  
@@ -67,10 +72,16 @@ class Dog implements Mammal {
         $this->number=$number;
     }
   
+    /**
+     * 输出动物特诊
+     */
     function feature() {
         echo "您好，我是哺乳动物，我每小时能跑百公里，盗贼搭了飞机也能追上！\n";
     }
   
+    /**
+     * 输出动物吃相
+     */
     function eat() {
         echo "您好，我是哺乳动物，每天要吃三十斤狗粮！\n";
     }
@@ -87,10 +98,16 @@ class Cow implements Mammal {
         $this->number=$number;
     }
   
+    /**
+     * 输出动物特征
+     */
     function feature() {
         echo "您好，我是哺乳动物，我每小时能耕十亩地，而且还累不死！\n";
     }
   
+    /**
+     * 输出动物吃相
+     */
     function eat() {
         echo "您好，我是哺乳动物，每天要吃二十斤青草！\n";
     }
